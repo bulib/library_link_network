@@ -4,7 +4,7 @@ BU Libraries use these scripts to pre-process bibliographic records extracted fr
 Two goals are achieved with these scripts. First, we remove unwanted fields and subfields from the marcxml records. Second, we are experimenting with enhancing the records with links to external data sources such as Wikipedia,VIAF, Wikidata, IMdb, the Getty vocabularies, etc. We build a lookup table based on the a dump of the Wikidata database. As each bibliographic record is processed, the lookup table is checked using Library of Congress authority headings to discover other possible sources of data.
 
 ## buildLookup.py
-This script downloads the latest version of the Wikidata database and uses it to create the desired lookup table. Building the table can requires considerable time and is updated infrequently
+This script downloads the latest version of the Wikidata database and uses it to create the desired lookup table. Building the table requires considerable time and is updated infrequently
 
 ## get_files_and_submit_jobs.py
 
